@@ -7,7 +7,7 @@ public class TestHelloWorld {
 	@Test
 	public void testSayHello() {
 		HelloWorld helloWorld = new HelloWorld();
-		Assert.assertEquals(helloWorld.sayHello(), "hello maven");
+		Assert.assertEquals(helloWorld.sayHello(), "hello maven hello maven");
 	}
 
 }

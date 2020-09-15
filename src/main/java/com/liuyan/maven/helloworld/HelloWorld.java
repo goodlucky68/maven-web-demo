@@ -2,7 +2,7 @@ package com.liuyan.maven.helloworld;
 
 public class HelloWorld {
 	public String sayHello() {
-		return "hello maven";
+		return "hello maven hello maven";
 	}
 
 	/**
@@ -10,6 +10,7 @@ public class HelloWorld {
 	 */
 	public static void main(String[] args) {
 		System.out.println(new HelloWorld().sayHello());
+		System.out.println("hello maven");
 
 }
 	
